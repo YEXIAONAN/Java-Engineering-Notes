@@ -1,4 +1,4 @@
-# JavaCode Repository 🚀
+# Java-Engineering-Notes Repository 🚀
 
 **EngLish** | [中文](https://github.com/YEXIAONAN/JavaCode/blob/main/README-ZH.md)
 
