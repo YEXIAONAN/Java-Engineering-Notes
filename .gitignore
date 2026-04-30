@@ -11,7 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
-
+.settings
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +31,5 @@ build/
 
 ### Dist ###
 dist
+
+CLAUDE.md

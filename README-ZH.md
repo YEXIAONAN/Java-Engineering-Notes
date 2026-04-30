@@ -1,96 +1,53 @@
-# Java代码仓库 🚀
+# Java-Engineering-Notes
 
-[EngLish](https://github.com/YEXIAONAN/JavaCode) | **中文**
+个人 Java 学习笔记仓库，涵盖基础语法、核心 API 和编程练习。所有示例代码位于 `org.code` 包下，采用单模块 Maven 项目管理。
 
-欢迎来到 **JavaCode** 仓库，这里汇集了 **YEXIAONAN** 开发的 Java 学习资源和项目。这个仓库是我个人在掌握 Java 编程过程中的一份存档，包含了各种示例、练习和小规模项目，用于展示关键的编程概念和实践。💻
+[English](README.md)
 
-## 目录 📑
-- [介绍](#介绍)
-- [仓库结构](#仓库结构)
-- [使用方法](#使用方法)
-- [贡献](#贡献)
-- [许可协议](#许可协议)
-- [联系方式](#联系方式)
+## 技术栈
 
-## 介绍 🌱
+- **Java 17**, Maven
+- MySQL Connector 8.0.33, Jakarta Servlet 5.0（provided 作用域）
 
-这个仓库是我个人用于持续探索 Java 编程的学习资源。它包含了我在学习不同阶段的代码示例、练习和项目。目标是涵盖基础主题以及更高级的 Java 技术。这个仓库既作为我个人的参考，也希望能为任何对 Java 编程感兴趣的人提供学习工具。📚
+## 项目结构
 
-## 仓库结构 🗂️
+全部源码在 `src/main/java/org/code/` 下，按主题分为 26 个包：
 
-本仓库按以下部分组织：
+| 包 | 说明 |
+|-----|------|
+| `basics/` | HelloWorld、输入输出、变量、类型转换 |
+| `operators/` | 算术、逻辑、关系、位运算符 |
+| `controlflow/` | if/else、switch、for、while、break、continue |
+| `oop/` | 类与对象、继承、接口、封装、抽象类、内部类 |
+| `arrays/` | 数组创建、遍历、二维数组 |
+| `strings/` | String 方法、StringBuilder |
+| `collections/` | ArrayList、LinkedList、HashMap、HashSet、Iterator |
+| `enums/` | 枚举定义与使用 |
+| `lambda/` | Lambda 表达式、函数式接口 |
+| `datetime/` | 日期时间处理与格式化 |
+| `exceptions/` | try-catch-finally、throw |
+| `io/` | 文件读写操作 |
+| `database/` | JDBC、MySQL 增删改查 |
+| `networking/` | Socket 客户端/服务端 |
+| `concurrency/` | 多线程示例 |
+| `gui/` | Swing 界面示例 |
+| `web/` | Servlet、HttpClient |
+| `regex/` | 正则表达式 |
+| `generics/` | 泛型方法 |
+| `methods/` | 方法声明、重载 |
+| `modifiers/` | 访问修饰符、static、final |
+| `algorithms/` | 回文判断、关键字查找 |
+| `recursion/` | 递归示例 |
+| `exercises/` | 作业、测验、验证程序 |
+| `review/` | 复习练习 |
+| `util/` | 工具类 |
 
-- **基础概念**: 基础编程主题，例如数据类型、控制流和面向对象原则。📖
-- **进阶主题**: 对更复杂概念的探索，包括并发、网络和数据库连接。🔧
-- **项目**: 展示 Java 概念在实际场景中应用的实践项目和小型项目。📊
-- **练习**: 旨在加强核心 Java 技能和最佳实践的问题解决练习。📝
+**资源文件：** `src/main/resources/` 包含 Java 基础教程文档（Markdown）、图片和代码备份。
 
-每个文件夹或文件都进行了适当的标签，以便用户轻松导航和找到所需的资源。
-
-## 使用方法 🏃‍♂️
-
-要开始浏览代码，请将此仓库克隆到您的本地计算机：
+## 构建
 
 ```bash
-git clone [https://github.com/YEXIAONAN/JavaCode.git](https://github.com/YEXIAONAN/JavaCode.git)
+mvn clean install
 ```
 
-克隆仓库后，您可以导航到各个文件夹以查看代码。每个项目或练习都应该是独立的，运行代码的说明包含在各自的文件中。对于更复杂的项目，您可能需要将代码导入您喜欢的 IDE（例如 IntelliJ IDEA 或 Eclipse）来执行和探索其功能。💡
-
-## 贡献 🤝
-
-虽然这个仓库主要供我个人使用，但也欢迎任何贡献！如果您有建议、改进或额外的资源想要分享，请随时 fork 本仓库并提交 pull request。请确保任何贡献都遵循最佳实践并符合 Java 编码标准。🔄
-
-### 贡献指南：
-
-  - 确保您的代码有良好的注释并遵循标准的 Java 约定。🖋️
-  - 添加对您的更改及其预期目的的简要说明。📋
-  - 编写有意义的 commit 消息来描述您的贡献。💬
-
-## 许可协议 📜
-
-本仓库根据 [MIT 许可证](LICENSE)，该许可证允许您自由使用、修改和分发代码，只要您在副本中包含原始许可证和版权声明。🔓
-
-## 联系方式 📬
-
-如有任何问题、反馈或咨询，请随时与我联系：
-
-  - GitHub: [YEXIAONAN](https://github.com/YEXIAONAN)
-  - 邮箱: yexiaonan78@gmail.com
-
-## 🤝 贡献者
-
-非常感谢所有为本项目做出贡献的开发者！每一次提交、每一个 issue、每一个 Pull Request，都是推动 **JavaCode** 持续进步的重要力量。
-
-### 📊 贡献者统计
-
-<a href="https://github.com/yexiaonan/javacode/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yexiaonan/javacode" />
-</a>
-
-> 图像由 [contrib.rocks](https://contrib.rocks) 生成，实时展示项目贡献者头像。
-
-### 🧭 如何参与贡献
-
-我们欢迎各种形式的贡献 —— 无论是修复 Bug、添加新功能、优化代码结构还是完善文档，您的参与都非常宝贵：
-
-1. **Fork 仓库**：点击 GitHub 页面右上角的 “Fork”。
-2. **克隆仓库到本地**：
-   ```bash
-   git clone https://github.com/YEXIAONAN/JavaCode.git
-   ```
-3. **创建新分支**：
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. **进行修改并提交**：
-   ```bash
-   git commit -m "添加：你的修改说明"
-   ```
-5. **推送分支到远程**：
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-6. **提交 Pull Request**：在 GitHub 上发起合并请求，描述您的更改内容。
-
-感谢您浏览此仓库。祝您编程愉快！✨
+每个 `.java` 文件包含 `main` 方法，可直接在 IDE 中运行或编译后通过 `java` 执行。
