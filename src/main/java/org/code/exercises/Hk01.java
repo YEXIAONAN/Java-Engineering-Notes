@@ -1,6 +1,6 @@
 package org.code.exercises;
 
-public class hk01 {
+public class Hk01 {
     public static void main(String[] args) {
         int n1;
         n1 = 13;

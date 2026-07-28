@@ -1,6 +1,6 @@
 package org.code.datatypes;
 
-public class PackegClass {
+public class PackageClass {
         public static void main(String[] args) {
             Integer myInt = 5;
             Double myDouble = 5.99;

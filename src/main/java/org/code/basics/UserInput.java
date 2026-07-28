@@ -2,7 +2,7 @@ package org.code.basics;
 
 import java.util.Scanner;
 
-public class Userinput {
+public class UserInput {
     public static void main(String[] args) {
         // 导入Scanner
         Scanner sc = new Scanner(System.in);

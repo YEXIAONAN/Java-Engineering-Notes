@@ -1,6 +1,6 @@
 package org.code.modifiers;
 
-public class MainContort {
+public class MainBanner {
 
     // 方法类
     private static class Main{

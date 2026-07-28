@@ -1,6 +1,6 @@
 package org.code.exercises;
 
-public class hk516 {
+public class Hk516 {
     public static void main(String[] args) {
         boolean b = true;
 

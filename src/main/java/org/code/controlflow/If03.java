@@ -2,7 +2,7 @@ package org.code.controlflow;
 
 import java.util.Scanner;
 
-public class if03 {
+public class If03 {
     public static void main(String[] args) {
         // 创建Scanner对象，用于从控制台读取用户输入
         Scanner sc = new Scanner(System.in);

@@ -2,7 +2,7 @@ package org.code.controlflow;
 
 import java.util.Scanner;
 
-public class if01 {
+public class If01 {
     public static void main(String[] args) {
         // 编写一个程序，可以输入人的年龄，如果该同志的年龄大于18，则输出“你已经18了，要为自己的行为负责，送入木棍监狱”
         Scanner sc = new Scanner(System.in);

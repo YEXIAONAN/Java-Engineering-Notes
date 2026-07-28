@@ -1,6 +1,6 @@
 package org.code.exercises;
 
-public class hk51 {
+public class Hk51 {
     public static void main(String[] args) {
         // 分支控制 if-else
         int x = 7;

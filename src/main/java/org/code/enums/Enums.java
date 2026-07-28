@@ -1,6 +1,6 @@
 package org.code.enums;
 
-public class enums {
+public class Enums {
     public static void main(String[] args) {
         enum size{
             LONG,

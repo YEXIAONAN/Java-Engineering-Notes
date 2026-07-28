@@ -1,6 +1,6 @@
 package org.code.exercises;
 
-public class hk02 {
+public class Hk02 {
     public static void main(String[] args) {
         char a1 = '\n';
         char a2 = '\t';

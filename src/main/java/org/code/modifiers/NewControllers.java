@@ -1,6 +1,6 @@
 package org.code.modifiers;
 
-public class newControllers {
+public class NewControllers {
 
 }
 
